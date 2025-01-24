@@ -1,0 +1,386 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="GsGGRKiGMbcHZ5DeUK_E">
+    <mxGraphModel dx="1594" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="2968" as="geometry" />
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-2" value="App" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="311" y="20" width="150" height="2968" as="geometry" />
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-3" value="Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="590" y="20" width="150" height="2968" as="geometry" />
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-4" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="951" y="20" width="150" height="2968" as="geometry" />
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-5" value="Enter login credentials" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-6" value="Validate credentials" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-7" value="Query user data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-8" value="User data" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-9" value="Login success or failure" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-10" value="Show dashboard or error" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-11" value="Enter registration details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-12" value="Validate and save details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-13" value="Create new user" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-14" value="Registration success" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-15" value="Notify success" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="669" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-16" value="Registration successful" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-17" value="Request OTP verification" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="777" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-18" value="Generate OTP" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="831" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-19" value="Save OTP" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-20" value="Send OTP to user" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="939" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-21" value="Enter received OTP" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="993" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-22" value="Verify OTP" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="1047" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-23" value="Validate OTP" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="1101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-24" value="OTP valid or invalid" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-25" value="Notify verification result" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="1209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-26" value="Verification success or failure" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="1263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-27" value="Enter ride details" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="1317" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-28" value="Validate and save ride" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="1371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-29" value="Create new ride entry" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="1425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-30" value="Ride created" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="1479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-31" value="Notify ride published" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="1533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-32" value="Ride published successfully" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="1587" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-33" value="Enter search criteria" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="1641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-34" value="Fetch matching rides" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="1695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-35" value="Query rides" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="1749" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-36" value="List of matching rides" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="1803" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-37" value="Send results" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="1857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-38" value="Show ride options" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="1911" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-39" value="Select a ride to book" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="1965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-40" value="Validate and process booking" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="2019" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-41" value="Update ride availability and save booking" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="2073" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-42" value="Booking created" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="2127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-43" value="Notify booking success" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="2181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-44" value="Show booking confirmation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="2235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-45" value="Request booking history" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="2289" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-46" value="Fetch booking records" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="2343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-47" value="Query user&#39;s bookings" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="2397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-48" value="Booking history" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="2451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-49" value="Send booking history" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="2505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-50" value="Display booking history" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="2559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-51" value="Request cancellation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-1" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="249" y="2613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-52" value="Process cancellation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="534" y="2667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-53" value="Update ride and booking status" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="854" y="2721" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-54" value="Ride/booking cancelled" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-4" target="nfPIaZX9P2ZjmyP8-ndF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="2775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-55" value="Notify cancellation success" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-3" target="nfPIaZX9P2ZjmyP8-ndF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="537" y="2829" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfPIaZX9P2ZjmyP8-ndF-56" value="Show cancellation confirmation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="nfPIaZX9P2ZjmyP8-ndF-2" target="nfPIaZX9P2ZjmyP8-ndF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="252" y="2883" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

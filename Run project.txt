@@ -1,0 +1,6 @@
+for ip config : - ipconfig
+for api : -  npx nodemon server.js
+
+for react
+run android : - npm run android
+npx react-native start --reset-cache

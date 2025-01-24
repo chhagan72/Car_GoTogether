@@ -1,0 +1,4 @@
+Entity,Attributes,Relationships
+User,"user_id, name, email, password, phone_number, profile_pic, isVerified, otp, resetPasswordToken, resetPasswordExpires","Has Rides (driver_id), Makes Bookings (user_id)"
+Ride,"ride_id, driver_id, vehicle_id, origin, destination, departure_time, arrival_time, price_per_seat, available_seats","Linked to Users (driver_id), Linked to Bookings (ride_id)"
+Booking,"booking_id, user_id, ride_id, seats","References Users (user_id), References Rides (ride_id)"
