@@ -1,0 +1,133 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_black.otf",
+      "sha1": "db560601ad49bd309d698c6aa38cf04b80244f7e"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_black_italic.otf",
+      "sha1": "1ec2bcedb0932859e136f4ffc071809ab2445176"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_black_outline.otf",
+      "sha1": "f3a99e99e4d50c1ac0b028c973b1f9238f5dcf2f"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_black_outline_italic.otf",
+      "sha1": "ed2af303789d3a1fd25162bbce71abeb81947552"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_bold.otf",
+      "sha1": "f9017fb825747c23c6bf78861e71bed37db72244"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_bold_italic.otf",
+      "sha1": "961efa2e50ead88861e7d9dec9aba59bfe9dff32"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_demibold.otf",
+      "sha1": "ce547dbba164cad70f13eb923938c345beddf736"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_demibold_italic.otf",
+      "sha1": "049c6fe484011f348feece6c96f75b7c6846e8b1"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_bold.otf",
+      "sha1": "c0ec07c2880852faa1ee54d6c8191a3aa523e5cb"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_bold_italic.otf",
+      "sha1": "16f0bfd92d6bffab6213f5b4e1f63ded11670cc3"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_demibold.otf",
+      "sha1": "7e3c59a671c5781390a69e8a285501d1ac457a84"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_demibold_italic.otf",
+      "sha1": "8e88087aeb9d0f83ff6ee40906009e0f65ea3ed0"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_extralight.otf",
+      "sha1": "9d7787d737b40efef0aa1e3e90c6f7fbfca13671"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_extralight_italic.otf",
+      "sha1": "f6678e27ebfdda16f0edcec3c30ad3f1d235a4ee"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_italic.otf",
+      "sha1": "8b641aa86a7dd9db7b30f3f1b5216dc7c54e36a2"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_light.otf",
+      "sha1": "c705f71aaac0e95775782bee527ae8a95de8c709"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_light_italic.otf",
+      "sha1": "11d5f42b74aaf1e39da326bd2889faf113c568fd"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_medium.otf",
+      "sha1": "5d358c2edd6eecc33861e14e7a419ad251d3682c"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_medium_italic.otf",
+      "sha1": "54fe5fd4d4107e4f1e5ffa054726a2b19008a7d3"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_display_regular.otf",
+      "sha1": "4ac6a0071fc67ed552bdede684dee4fd113cace7"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_extrabold.otf",
+      "sha1": "9da2f9000f0ab73b55fd9f7cb284ac8ac71cd70b"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_extrabold_italic.otf",
+      "sha1": "57169e20d5090a7117ec6d9fdf43125ae373dfb9"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_extralight.otf",
+      "sha1": "aa5db5d9ac099aea752bfb15b1185e5097f5e142"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_extralight_italic.otf",
+      "sha1": "ea3e8c42d6fe1f0f8c748a8c73d8a19e179e119b"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_italic.otf",
+      "sha1": "f757ba490e832c1e8ffb3b7bedeb407a394acccc"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_light.otf",
+      "sha1": "83e9da92148005abffabfbc97d33775458fecc48"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_light_italic.otf",
+      "sha1": "0fc9562e3a543c4faa4336e9d3ca6f82d9d549c3"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_medium.otf",
+      "sha1": "a4e65ae14713f4d72373a550ce779d251babe18e"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_medium_italic.otf",
+      "sha1": "6e21de22c30c272b9d47d517f6d194692556ddc2"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_regular.otf",
+      "sha1": "2b15c728287e81fce72c85e8b93066d4f9128e97"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_thin.otf",
+      "sha1": "315b14aea9c159f6d29c988ff9f478b6ebc6c7e6"
+    },
+    {
+      "path": "assets/fonts/Fontspring-DEMO-tt_fors_thin_italic.otf",
+      "sha1": "6597deb1350c08dc7e95ff3fbfd77af5e19704bd"
+    }
+  ]
+}
